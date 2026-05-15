@@ -182,7 +182,7 @@ function initContactForm() {
     if (message) text += `\n*Mensagem:* ${message}`;
 
     const encoded = encodeURIComponent(text);
-    window.open(`https://wa.me/5551999999999?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/5551982355823?text=${encoded}`, '_blank');
   });
 }
 
