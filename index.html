@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ECO Soluções - Limpeza, higienização, impermeabilização de estofados e adesivagem decorativa no Rio Grande do Sul. Renovação inteligente de ambientes sem obra e sem sujeira." />
+  <meta name="keywords" content="higienização estofados, impermeabilização, papel de parede, adesivagem decorativa, limpeza sofá, Rio Grande do Sul" />
+  <meta property="og:title" content="ECO Soluções | Cuida. Transforma. Renova." />
+  <meta property="og:description" content="Renovação inteligente de ambientes, sem obra, sem sujeira e com cuidado profissional." />
+  <meta property="og:type" content="website" />
+  <title>ECO Soluções | Cuida. Transforma. Renova.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo">
+        <div class="logo-mark">
+          <span class="logo-leaf">🌿</span>
+        </div>
+        <div class="logo-text">
+          <span class="logo-eco">ECO</span>
+          <span class="logo-solucoes">Soluções</span>
+        </div>
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#antes-depois" class="nav-link">Antes e Depois</a>
+        <a href="#beneficios" class="nav-link">Benefícios</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn--primary header__cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Solicitar Orçamento
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg-texture"></div>
+    <div class="hero__curve"></div>
+    <div class="container hero__inner">
+      <div class="hero__content" data-aos="fade-right">
+        <span class="hero__badge">Rio Grande do Sul</span>
+        <h1 class="hero__title">
+          Sua casa merece<br />
+          <em class="hero__title-em">parecer nova</em><br />
+          de novo.
+        </h1>
+        <p class="hero__subtitle">
+          Limpeza, proteção e decoração para transformar ambientes com praticidade, cuidado e sofisticação.
+        </p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn--primary btn--lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Solicitar Orçamento pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn--outline btn--lg">Conhecer Serviços</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-num">500+</span>
+            <span class="hero__stat-label">Ambientes renovados</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">100%</span>
+            <span class="hero__stat-label">Sem obra</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">RS</span>
+            <span class="hero__stat-label">Rio Grande do Sul</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual" data-aos="fade-left">
+        <div class="hero__image-frame">
+          <div class="hero__image-placeholder">
+            <div class="hero__image-inner">
+              <div class="hero__room-scene">
+                <div class="hero__sofa">
+                  <div class="hero__sofa-back"></div>
+                  <div class="hero__sofa-seat"></div>
+                  <div class="hero__sofa-arm hero__sofa-arm--left"></div>
+                  <div class="hero__sofa-arm hero__sofa-arm--right"></div>
+                  <div class="hero__sofa-cushion"></div>
+                  <div class="hero__sofa-cushion hero__sofa-cushion--2"></div>
+                </div>
+                <div class="hero__plant">
+                  <div class="hero__plant-pot"></div>
+                  <div class="hero__plant-stem"></div>
+                  <div class="hero__plant-leaf hero__plant-leaf--1"></div>
+                  <div class="hero__plant-leaf hero__plant-leaf--2"></div>
+                  <div class="hero__plant-leaf hero__plant-leaf--3"></div>
+                </div>
+                <div class="hero__wall-pattern"></div>
+                <div class="hero__badge-float hero__badge-float--1">
+                  <span class="badge-icon">✨</span>
+                  <span>Higienizado</span>
+                </div>
+                <div class="hero__badge-float hero__badge-float--2">
+                  <span class="badge-icon">🛡️</span>
+                  <span>Impermeabilizado</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image-deco hero__image-deco--1"></div>
+          <div class="hero__image-deco hero__image-deco--2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Rolar para baixo</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== POSICIONAMENTO ===== -->
+  <section class="positioning" id="posicionamento">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Nossa Essência</span>
+        <h2 class="section-title">Renovação inteligente<br /><em>de ambientes</em></h2>
+        <p class="section-subtitle">
+          A ECO Soluções une limpeza profissional, higienização, impermeabilização e decoração para transformar ambientes sem obra, sem sujeira e sem complicação.
+        </p>
+      </div>
+      <div class="positioning__cards">
+        <div class="pos-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="pos-card__icon pos-card__icon--green">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="pos-card__title">Cuida</h3>
+          <p class="pos-card__text">Higienização profissional para estofados, colchões, carpetes e bancos automotivos.</p>
+          <div class="pos-card__line"></div>
+        </div>
+        <div class="pos-card pos-card--featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="pos-card__icon pos-card__icon--gold">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 class="pos-card__title">Transforma</h3>
+          <p class="pos-card__text">Adesivagem decorativa e papéis de parede para renovar ambientes com estilo.</p>
+          <div class="pos-card__line"></div>
+        </div>
+        <div class="pos-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="pos-card__icon pos-card__icon--terra">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="pos-card__title">Renova</h3>
+          <p class="pos-card__text">Soluções práticas para deixar sua casa mais bonita, limpa e protegida.</p>
+          <div class="pos-card__line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="services" id="servicos">
+    <div class="services__bg"></div>
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">O que fazemos</span>
+        <h2 class="section-title">Soluções para cuidar,<br /><em>transformar e renovar</em></h2>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div class="service-card__tag">ECO Clean</div>
+          <h3 class="service-card__title">Higienização de Estofados</h3>
+          <p class="service-card__text">Limpeza profunda para sofás, poltronas, cadeiras e estofados em geral.</p>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20em%20higienização%20de%20estofados." target="_blank" class="service-card__btn">Solicitar Orçamento</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+          </div>
+          <div class="service-card__tag">ECO Clean</div>
+          <h3 class="service-card__title">Higienização de Colchões</h3>
+          <p class="service-card__text">Mais saúde, conforto e bem-estar para o seu ambiente.</p>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20em%20higienização%20de%20colchões." target="_blank" class="service-card__btn">Solicitar Orçamento</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <div class="service-card__tag">ECO Clean</div>
+          <h3 class="service-card__title">Higienização Automotiva</h3>
+          <p class="service-card__text">Bancos e interiores renovados com cuidado profissional.</p>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20em%20higienização%20automotiva." target="_blank" class="service-card__btn">Solicitar Orçamento</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          </div>
+          <div class="service-card__tag">ECO Protege</div>
+          <h3 class="service-card__title">Impermeabilização</h3>
+          <p class="service-card__text">Proteção para preservar seus estofados por muito mais tempo.</p>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20em%20impermeabilização." target="_blank" class="service-card__btn">Solicitar Orçamento</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <div class="service-card__tag">ECO Decor</div>
+          <h3 class="service-card__title">Adesivagem Decorativa</h3>
+          <p class="service-card__text">Transforme paredes e ambientes sem obra e sem sujeira.</p>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20em%20adesivagem%20decorativa." target="_blank" class="service-card__btn">Solicitar Orçamento</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <div class="service-card__tag">ECO Decor</div>
+          <h3 class="service-card__title">Papéis de Parede</h3>
+          <p class="service-card__text">Acabamento elegante para renovar espaços com praticidade.</p>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20em%20papel%20de%20parede." target="_blank" class="service-card__btn">Solicitar Orçamento</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ANTES E DEPOIS ===== -->
+  <section class="before-after" id="antes-depois">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Transformações Reais</span>
+        <h2 class="section-title">Resultados que<br /><em>falam por si</em></h2>
+        <p class="section-subtitle">
+          Veja como pequenos cuidados podem transformar completamente a aparência e a sensação de um ambiente.
+        </p>
+      </div>
+
+      <div class="ba-tabs" data-aos="fade-up">
+        <button class="ba-tab ba-tab--active" data-tab="estofados">Estofados</button>
+        <button class="ba-tab" data-tab="colchoes">Colchões</button>
+        <button class="ba-tab" data-tab="automotivo">Bancos Automotivos</button>
+        <button class="ba-tab" data-tab="paredes">Paredes Decorativas</button>
+      </div>
+
+      <div class="ba-gallery" data-aos="fade-up" data-aos-delay="100">
+        <div class="ba-item" data-tab-content="estofados">
+          <div class="ba-card">
+            <div class="ba-card__before">
+              <div class="ba-placeholder ba-placeholder--before">
+                <div class="ba-placeholder__scene ba-placeholder__scene--dirty">
+                  <div class="ba-sofa ba-sofa--dirty"></div>
+                  <span class="ba-placeholder__label">Antes</span>
+                </div>
+              </div>
+            </div>
+            <div class="ba-card__arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+            <div class="ba-card__after">
+              <div class="ba-placeholder ba-placeholder--after">
+                <div class="ba-placeholder__scene ba-placeholder__scene--clean">
+                  <div class="ba-sofa ba-sofa--clean"></div>
+                  <span class="ba-placeholder__label">Depois</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="ba-card__caption">Sofá higienizado e impermeabilizado</p>
+        </div>
+
+        <div class="ba-item" data-tab-content="estofados">
+          <div class="ba-card">
+            <div class="ba-card__before">
+              <div class="ba-placeholder ba-placeholder--before">
+                <div class="ba-placeholder__scene ba-placeholder__scene--dirty">
+                  <div class="ba-chair ba-chair--dirty"></div>
+                  <span class="ba-placeholder__label">Antes</span>
+                </div>
+              </div>
+            </div>
+            <div class="ba-card__arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+            <div class="ba-card__after">
+              <div class="ba-placeholder ba-placeholder--after">
+                <div class="ba-placeholder__scene ba-placeholder__scene--clean">
+                  <div class="ba-chair ba-chair--clean"></div>
+                  <span class="ba-placeholder__label">Depois</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="ba-card__caption">Poltrona restaurada e higienizada</p>
+        </div>
+
+        <div class="ba-item ba-item--hidden" data-tab-content="colchoes">
+          <div class="ba-card">
+            <div class="ba-card__before">
+              <div class="ba-placeholder ba-placeholder--before">
+                <div class="ba-placeholder__scene ba-placeholder__scene--dirty">
+                  <div class="ba-mattress ba-mattress--dirty"></div>
+                  <span class="ba-placeholder__label">Antes</span>
+                </div>
+              </div>
+            </div>
+            <div class="ba-card__arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+            <div class="ba-card__after">
+              <div class="ba-placeholder ba-placeholder--after">
+                <div class="ba-placeholder__scene ba-placeholder__scene--clean">
+                  <div class="ba-mattress ba-mattress--clean"></div>
+                  <span class="ba-placeholder__label">Depois</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="ba-card__caption">Colchão higienizado e sanitizado</p>
+        </div>
+
+        <div class="ba-item ba-item--hidden" data-tab-content="automotivo">
+          <div class="ba-card">
+            <div class="ba-card__before">
+              <div class="ba-placeholder ba-placeholder--before">
+                <div class="ba-placeholder__scene ba-placeholder__scene--dirty">
+                  <div class="ba-seat ba-seat--dirty"></div>
+                  <span class="ba-placeholder__label">Antes</span>
+                </div>
+              </div>
+            </div>
+            <div class="ba-card__arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+            <div class="ba-card__after">
+              <div class="ba-placeholder ba-placeholder--after">
+                <div class="ba-placeholder__scene ba-placeholder__scene--clean">
+                  <div class="ba-seat ba-seat--clean"></div>
+                  <span class="ba-placeholder__label">Depois</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="ba-card__caption">Banco automotivo renovado</p>
+        </div>
+
+        <div class="ba-item ba-item--hidden" data-tab-content="paredes">
+          <div class="ba-card">
+            <div class="ba-card__before">
+              <div class="ba-placeholder ba-placeholder--before">
+                <div class="ba-placeholder__scene ba-placeholder__scene--dirty">
+                  <div class="ba-wall ba-wall--plain"></div>
+                  <span class="ba-placeholder__label">Antes</span>
+                </div>
+              </div>
+            </div>
+            <div class="ba-card__arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+            <div class="ba-card__after">
+              <div class="ba-placeholder ba-placeholder--after">
+                <div class="ba-placeholder__scene ba-placeholder__scene--clean">
+                  <div class="ba-wall ba-wall--decorated"></div>
+                  <span class="ba-placeholder__label">Depois</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="ba-card__caption">Parede transformada com adesivo decorativo</p>
+        </div>
+      </div>
+
+      <div class="ba-cta" data-aos="fade-up">
+        <a href="https://wa.me/5551999999999?text=Olá!%20Quero%20renovar%20meu%20ambiente." target="_blank" class="btn btn--primary btn--lg">
+          Quero Renovar Meu Ambiente
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFÍCIOS ===== -->
+  <section class="benefits" id="beneficios">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Diferenciais</span>
+        <h2 class="section-title">Por que escolher<br /><em>a ECO Soluções?</em></h2>
+      </div>
+      <div class="benefits__grid">
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="50">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h4>Atendimento Profissional</h4>
+          <p>Equipe treinada e comprometida com a qualidade.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </div>
+          <h4>Aplicação Limpa e Organizada</h4>
+          <p>Trabalhamos sem deixar rastros de sujeira.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="150">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h4>Sem Obra e Sem Sujeira</h4>
+          <p>Transformação completa sem transtorno.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h4>Resultado Visível</h4>
+          <p>Transformação real e perceptível desde o primeiro serviço.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="250">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h4>Mais Conforto e Bem-Estar</h4>
+          <p>Ambientes mais saudáveis para você e sua família.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Proteção para Seus Móveis</h4>
+          <p>Impermeabilização que prolonga a vida útil dos estofados.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="350">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h4>Visual Premium para Sua Casa</h4>
+          <p>Resultado com aparência de ambiente recém-decorado.</p>
+        </div>
+        <div class="benefit-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="benefit-item__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <h4>Orçamento Rápido pelo WhatsApp</h4>
+          <p>Resposta ágil e sem burocracia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LINHAS ECO ===== -->
+  <section class="eco-lines" id="linhas">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Nossas Linhas</span>
+        <h2 class="section-title">Três linhas,<br /><em>uma solução completa</em></h2>
+      </div>
+      <div class="eco-lines__grid">
+        <div class="eco-line-card eco-line-card--clean" data-aos="fade-up" data-aos-delay="100">
+          <div class="eco-line-card__accent"></div>
+          <div class="eco-line-card__header">
+            <div class="eco-line-card__badge">ECO</div>
+            <h3 class="eco-line-card__name">Clean</h3>
+          </div>
+          <p class="eco-line-card__desc">Limpeza, higienização e cuidado profissional de estofados.</p>
+          <ul class="eco-line-card__list">
+            <li>Sofás e poltronas</li>
+            <li>Colchões</li>
+            <li>Carpetes e tapetes</li>
+            <li>Cadeiras e bancos</li>
+          </ul>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20no%20ECO%20Clean." target="_blank" class="eco-line-card__btn">Saiba mais</a>
+        </div>
+
+        <div class="eco-line-card eco-line-card--decor" data-aos="fade-up" data-aos-delay="200">
+          <div class="eco-line-card__accent"></div>
+          <div class="eco-line-card__header">
+            <div class="eco-line-card__badge">ECO</div>
+            <h3 class="eco-line-card__name">Decor</h3>
+          </div>
+          <p class="eco-line-card__desc">Adesivagem decorativa, papéis de parede e transformação de ambientes.</p>
+          <ul class="eco-line-card__list">
+            <li>Papéis de parede</li>
+            <li>Adesivos decorativos</li>
+            <li>Renovação de ambientes</li>
+            <li>Decoração sem obra</li>
+          </ul>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20no%20ECO%20Decor." target="_blank" class="eco-line-card__btn">Saiba mais</a>
+        </div>
+
+        <div class="eco-line-card eco-line-card--protege" data-aos="fade-up" data-aos-delay="300">
+          <div class="eco-line-card__accent"></div>
+          <div class="eco-line-card__header">
+            <div class="eco-line-card__badge">ECO</div>
+            <h3 class="eco-line-card__name">Protege</h3>
+          </div>
+          <p class="eco-line-card__desc">Impermeabilização e proteção de estofados para mais durabilidade.</p>
+          <ul class="eco-line-card__list">
+            <li>Impermeabilização de sofás</li>
+            <li>Proteção de colchões</li>
+            <li>Tratamento de carpetes</li>
+            <li>Bancos automotivos</li>
+          </ul>
+          <a href="https://wa.me/5551999999999?text=Olá!%20Tenho%20interesse%20no%20ECO%20Protege." target="_blank" class="eco-line-card__btn">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="about" id="sobre">
+    <div class="container about__inner">
+      <div class="about__visual" data-aos="fade-right">
+        <div class="about__image-frame">
+          <div class="about__image-scene">
+            <div class="about__room">
+              <div class="about__room-wall"></div>
+              <div class="about__room-sofa"></div>
+              <div class="about__room-plant"></div>
+              <div class="about__room-rug"></div>
+            </div>
+          </div>
+          <div class="about__badge-float">
+            <div class="about__badge-icon">🌿</div>
+            <div>
+              <strong>ECO Soluções</strong>
+              <span>Rio Grande do Sul</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__content" data-aos="fade-left">
+        <span class="section-tag">Sobre Nós</span>
+        <h2 class="section-title">Cuidado profissional para ambientes que <em>merecem atenção</em></h2>
+        <p class="about__text">
+          A ECO Soluções nasceu para ajudar pessoas e empresas a renovarem seus ambientes de forma prática, limpa e profissional. Atuamos com higienização, proteção de estofados e soluções decorativas que transformam espaços sem a necessidade de obra.
+        </p>
+        <p class="about__text">
+          Nosso compromisso é entregar um serviço cuidadoso, organizado e com resultado visível, valorizando cada detalhe do ambiente.
+        </p>
+        <div class="about__values">
+          <div class="about__value">
+            <div class="about__value-dot"></div>
+            <span>Profissionalismo</span>
+          </div>
+          <div class="about__value">
+            <div class="about__value-dot"></div>
+            <span>Cuidado com detalhes</span>
+          </div>
+          <div class="about__value">
+            <div class="about__value-dot"></div>
+            <span>Resultado garantido</span>
+          </div>
+          <div class="about__value">
+            <div class="about__value-dot"></div>
+            <span>Sem obra, sem sujeira</span>
+          </div>
+        </div>
+        <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20ECO%20Soluções." target="_blank" class="btn btn--primary">Falar com a ECO Soluções</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA EMOCIONAL ===== -->
+  <section class="cta-emotional">
+    <div class="cta-emotional__bg"></div>
+    <div class="cta-emotional__texture"></div>
+    <div class="container cta-emotional__inner" data-aos="fade-up">
+      <div class="cta-emotional__tag">Transforme Agora</div>
+      <h2 class="cta-emotional__title">
+        Renove sem quebrar.<br />
+        <em>Limpe sem trocar.</em><br />
+        Proteja sem complicar.
+      </h2>
+      <p class="cta-emotional__subtitle">
+        Da limpeza dos estofados à transformação das paredes, a ECO Soluções cuida dos detalhes que fazem sua casa parecer nova de novo.
+      </p>
+      <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn--gold btn--lg">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Solicitar Orçamento Agora
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== DEPOIMENTOS ===== -->
+  <section class="testimonials" id="depoimentos">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Clientes Satisfeitos</span>
+        <h2 class="section-title">O que dizem sobre<br /><em>a ECO Soluções</em></h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Meu sofá parecia outro depois da higienização. Atendimento muito profissional e resultado surpreendente. Recomendo demais!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">AM</div>
+            <div>
+              <strong>Ana Maria S.</strong>
+              <span>Porto Alegre, RS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-card--featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Transformaram o quarto do meu filho com papel de parede, sem sujeira e com acabamento perfeito. Ficou lindo e muito profissional!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">CR</div>
+            <div>
+              <strong>Carla R.</strong>
+              <span>Canoas, RS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Serviço rápido, cuidadoso e com resultado visível. Os bancos do meu carro ficaram como novos. Excelente custo-benefício!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RP</div>
+            <div>
+              <strong>Roberto P.</strong>
+              <span>São Leopoldo, RS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Impermeabilizaram meu sofá e agora não tenho mais medo de manchas. Valeu cada centavo. Equipe super atenciosa!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JL</div>
+            <div>
+              <strong>Juliana L.</strong>
+              <span>Novo Hamburgo, RS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Contratei para higienizar os colchões e fiquei impressionado com a diferença. Ambiente muito mais saudável para toda a família."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">MF</div>
+            <div>
+              <strong>Marcos F.</strong>
+              <span>Gravataí, RS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Adesivagem na sala ficou incrível! Parece que reformei o apartamento inteiro sem gastar quase nada. Profissionalismo total!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">PS</div>
+            <div>
+              <strong>Patricia S.</strong>
+              <span>Alvorada, RS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Dúvidas Frequentes</span>
+        <h2 class="section-title">Perguntas<br /><em>frequentes</em></h2>
+      </div>
+      <div class="faq__list" data-aos="fade-up">
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            Quanto tempo leva a higienização de um sofá?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>O tempo varia conforme o tamanho e o estado do sofá, mas em média leva entre 1h30 e 3 horas. O tempo de secagem completa é de aproximadamente 4 a 6 horas após o serviço.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            A impermeabilização protege contra manchas?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Sim! A impermeabilização cria uma barreira protetora que repele líquidos e dificulta a penetração de manchas, preservando o estofado por muito mais tempo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            O papel de parede faz sujeira durante a aplicação?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Não! Nossa aplicação é limpa, organizada e sem sujeira. Trabalhamos com cuidado para não deixar resíduos no ambiente, e o resultado final é impecável.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            Vocês atendem empresas?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Sim! Atendemos residências, empresas, escritórios, hotéis, clínicas e qualquer ambiente que precise de higienização, impermeabilização ou decoração.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            Como faço para solicitar orçamento?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>É simples! Basta clicar em qualquer botão "Solicitar Orçamento" no site e você será direcionado para o nosso WhatsApp. Respondemos rapidamente!</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            Atendem quais regiões do Rio Grande do Sul?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Atendemos Porto Alegre e região metropolitana, incluindo Canoas, São Leopoldo, Novo Hamburgo, Gravataí, Alvorada e cidades próximas. Entre em contato para verificar disponibilidade na sua região.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            A higienização remove odores?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Sim! Nossa higienização profissional elimina odores causados por mofo, ácaros, suor e outros agentes. O resultado é um ambiente muito mais fresco e saudável.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question">
+            O serviço precisa de agendamento?
+            <svg class="faq-item__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Sim, trabalhamos com agendamento para garantir a melhor atenção ao seu serviço. Entre em contato pelo WhatsApp e escolha o melhor horário para você.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="contact" id="contato">
+    <div class="container contact__inner">
+      <div class="contact__info" data-aos="fade-right">
+        <span class="section-tag">Fale Conosco</span>
+        <h2 class="section-title">Pronto para renovar<br /><em>seu ambiente?</em></h2>
+        <p class="contact__desc">
+          Solicite um orçamento pelo WhatsApp e descubra a melhor solução para sua casa, empresa ou veículo.
+        </p>
+        <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn btn--primary btn--xl">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar com a ECO Soluções no WhatsApp
+        </a>
+        <div class="contact__details">
+          <div class="contact__detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Rio Grande do Sul, Brasil</span>
+          </div>
+          <div class="contact__detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <span>(51) 99999-9999</span>
+          </div>
+          <div class="contact__detail">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span>@ecosolucoes.rs</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact__form-wrap" data-aos="fade-left">
+        <form class="contact__form" id="contactForm">
+          <h3 class="contact__form-title">Envie uma mensagem</h3>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome completo" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(51) 99999-9999" />
+          </div>
+          <div class="form-group">
+            <label for="service">Serviço desejado</label>
+            <select id="service" name="service">
+              <option value="">Selecione um serviço</option>
+              <option value="higienizacao-estofados">Higienização de Estofados</option>
+              <option value="higienizacao-colchoes">Higienização de Colchões</option>
+              <option value="higienizacao-automotiva">Higienização Automotiva</option>
+              <option value="impermeabilizacao">Impermeabilização</option>
+              <option value="adesivagem">Adesivagem Decorativa</option>
+              <option value="papel-parede">Papéis de Parede</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" placeholder="Descreva o que você precisa..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__top-inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="logo-leaf">🌿</span>
+            <div class="logo-text">
+              <span class="logo-eco">ECO</span>
+              <span class="logo-solucoes">Soluções</span>
+            </div>
+          </div>
+          <p class="footer__slogan">Cuida. Transforma. Renova.</p>
+          <p class="footer__desc">Renovação inteligente de ambientes, sem obra, sem sujeira e com cuidado profissional.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/ecosolucoes.rs" target="_blank" class="footer__social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/5551999999999" target="_blank" class="footer__social-link" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#antes-depois">Antes e Depois</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">Higienização de Estofados</a></li>
+            <li><a href="#servicos">Higienização de Colchões</a></li>
+            <li><a href="#servicos">Higienização Automotiva</a></li>
+            <li><a href="#servicos">Impermeabilização</a></li>
+            <li><a href="#servicos">Adesivagem Decorativa</a></li>
+            <li><a href="#servicos">Papéis de Parede</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4>Contato</h4>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Rio Grande do Sul, Brasil</span>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <a href="https://wa.me/5551999999999" target="_blank">(51) 99999-9999</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <a href="https://instagram.com/ecosolucoes.rs" target="_blank">@ecosolucoes.rs</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2025 ECO Soluções. Todos os direitos reservados.</p>
+        <p>Desenvolvido com cuidado e profissionalismo.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__tooltip">Falar no WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
